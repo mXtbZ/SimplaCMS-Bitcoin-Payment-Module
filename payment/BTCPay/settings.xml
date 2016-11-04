@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<name>
+		Bitcoin платежный модуль
+	</name>
+	<settings>
+		<variable>apikey</variable>
+		<name>API KEY</name>
+	</settings>
+	<settings>
+		<variable>apicurrency</variable>
+		<name>Currency (UAH / RUB / USD)</name>
+	</settings>
+	<settings>
+		<variable>rateadd</variable>
+		<name>Корректировка цены, %</name>
+	</settings>
+	<settings>
+		<variable>workdir</variable>
+		<name>Путь к рабочей директории</name>
+	</settings>
+	<settings>
+		<variable>paytime</variable>
+		<name>Сколько времени мы ожидаем оплату</name>
+	</settings>
+	<settings>
+		<variable>servicemail</variable>
+		<name>Почта для уведомлений</name>
+	</settings>
+	<settings>
+		<variable>btcconfirmation</variable>
+		<name>Кол-во подтверждений транзакции</name>
+	</settings>
+	<settings>
+		<variable>transactiontime</variable>
+		<name>Время ожидания подтв. транзакции</name>
+	</settings>
+</module>
